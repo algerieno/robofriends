@@ -11,10 +11,6 @@ export const robots = [{
     "first_name": "Jo-anne",
     "slogan": "seize virtual interfaces"
   }, {
-    "id": 4,
-    "first_name": "Jeramie",
-    "slogan": "redefine 24/365 infomediaries"
-  }, {
     "id": 5,
     "first_name": "Cristina",
     "slogan": "redefine scalable portals"
