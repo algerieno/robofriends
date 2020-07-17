@@ -31,7 +31,7 @@ searchChange = (event) => {
         <h1>RoboFriends</h1>
         <input type="text" 
                placeholder="search"  
-               className="mb3 bg-light-blue w5 h2 pa3 b--solid bw1 br2"
+               className="mb3 bg-light-blue w5 h2 pa3 b--solid b--blue bw1 br2 outline-0"
                onChange={this.searchChange}/>
         <hr/>
         <CardList robots = {filteredRobots} ></CardList>
