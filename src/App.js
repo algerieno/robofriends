@@ -34,7 +34,7 @@ searchChange = (event) => {
 
     return (  
       <div className="tc">
-        <h1>RoboFriends</h1>
+        <h1 style={{color : 'white'}}>RoboFriends</h1>
         <input type="text" 
                placeholder="search"  
                className="mb3 bg-light-blue w5 h2 pa3 b--solid b--blue bw1 br2 outline-0"
