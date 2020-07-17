@@ -11,10 +11,16 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      robots: robots,
+      robots: [],
       searchfield : ''
     }
   }
+
+componentDidMount() {
+  fetch('https://my.api.mockaroo.com/robots.json?key=e5e19180')
+    .then(response => {return response.json()})
+    .then(users => console.log(this.setState({robots:users})))
+}
 
 searchChange = (event) => {
   this.setState({searchfield: event.target.value})
