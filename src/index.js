@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App'
-import Tachyons from 'tachyons'
+import App from './container/App'
+import 'tachyons'
 import * as serviceWorker from './serviceWorker';
 
 

@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
+//import logo from '../logo.svg';
 import './App.css';
-import CardList from './cardList';
-import {robots} from './bank'
+import CardList from '../components/cardList';
+//import {robots} from '../utilities/bank'
 
 
 
@@ -19,7 +19,7 @@ class App extends Component {
 componentDidMount() {
   fetch('https://my.api.mockaroo.com/robots.json?key=e5e19180')
     .then(response => {return response.json()})
-    .then(users => console.log(this.setState({robots:users})))
+    .then(users => this.setState({robots:users}))
 }
 
 searchChange = (event) => {
